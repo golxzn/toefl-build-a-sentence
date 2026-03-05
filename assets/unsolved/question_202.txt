@@ -1,0 +1,4 @@
+Q: The analyst refused to revise the forecast despite new data.
+A: Although / new evidence / suggested / changes / , / the forecast / remained / unchanged / overall / .
+T: strongly
+F: 0/4/9

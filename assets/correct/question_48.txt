@@ -1,0 +1,4 @@
+Q: We’re planning a trip to the mountains next weekend.
+A: Can / you / tell me / whether / the cabins / will be / available
+T: soon
+F: 0

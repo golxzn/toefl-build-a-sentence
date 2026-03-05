@@ -1,0 +1,4 @@
+Q: Did you enjoy the game yesterday?
+A: Since / it / got / dark / , / the game / ended / early / .
+T: completely
+F: 0/4/8

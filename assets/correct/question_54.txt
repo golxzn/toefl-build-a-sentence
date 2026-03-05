@@ -1,0 +1,4 @@
+Q: What did Maria ask you about the book you're reading?
+A: She / wanted / to know / where / she / could / buy a copy
+T: online
+F: 0

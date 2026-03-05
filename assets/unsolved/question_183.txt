@@ -1,0 +1,3 @@
+Q: The boy stayed home because he was sick.
+A: Because / he / was / sick / , / the boy / stayed / home / .
+F: 0/4/8

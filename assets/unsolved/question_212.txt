@@ -1,0 +1,4 @@
+Q: The agency withdrew its recommendation after identifying inconsistencies.
+A: Identifying / inconsistencies / in the guidelines / , / the agency / withdrew / its recommendation / .
+T: unexpectedly
+F: 3/6/7

@@ -1,0 +1,4 @@
+Q: Do you know where Ethan found those old photographs?
+A: I / was curious / where / Ethan / found / those / old / photographs / yesterday
+T: somehow / already / nearby
+F: 0 / 8

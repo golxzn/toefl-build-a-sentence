@@ -1,0 +1,3 @@
+Q: The manager refused to approve the budget request.
+A: While / the review / was / still / ongoing / , / approval / was withheld / .
+F: 0/5/8

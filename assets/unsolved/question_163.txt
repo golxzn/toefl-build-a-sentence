@@ -1,0 +1,4 @@
+Q: I plan to start a new hobby soon.
+A: What / hobby / do / you / want to / start / soon / ?
+T: really
+F: 7

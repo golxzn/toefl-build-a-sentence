@@ -1,0 +1,4 @@
+Q: Why were you late to the meeting?
+A: Since / there / was / traffic / , / the bus / was / late / .
+T: completely
+F: 0/4/8

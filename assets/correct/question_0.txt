@@ -1,0 +1,4 @@
+Q: Why did Emma leave the conference early?
+A: She / wanted / to know / whether / the session / had / ended
+T: already
+F: 0

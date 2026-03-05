@@ -1,0 +1,4 @@
+Q: The restaurant removed a dish that customers disliked.
+A: The restaurant / removed / a dish / that / customers / disliked / a lot / .
+T: heavily
+F: 7

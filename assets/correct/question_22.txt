@@ -1,0 +1,3 @@
+Q: Why is the assistant calling the supplier?
+A: She / needs / to find / out / whether / the order / has / shipped
+T: sometimes

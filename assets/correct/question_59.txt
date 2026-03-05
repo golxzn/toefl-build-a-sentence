@@ -1,0 +1,4 @@
+Q: I'm thinking about getting a pet.
+A: What / kind / of / animal / are / you / considering
+T: maybe
+F: 0

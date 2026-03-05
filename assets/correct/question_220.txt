@@ -1,0 +1,4 @@
+Q: The professor selected a student who had demonstrated strong leadership.
+A: The professor / selected / a student / who / had / demonstrated / exceptional leadership / in class / .
+T: actually
+F: 8

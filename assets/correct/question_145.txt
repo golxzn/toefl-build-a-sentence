@@ -1,0 +1,4 @@
+Q: The company discontinued a service that many users disliked.
+A: The company / discontinued / a service / that / customers / had criticized / for / years / .
+T: heavily
+F: 8

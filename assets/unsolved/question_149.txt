@@ -1,0 +1,3 @@
+Q: Why had the company delayed the product launch?
+A: Until / all problems / were / resolved / , / the launch / was / delayed / .
+F: 0/4/8

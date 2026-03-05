@@ -1,0 +1,4 @@
+Q: It seems like the professor postponed the exam. Do you know why?
+A: Because / the students / were / unprepared / , / the exam / was / postponed / .
+T: completely
+F: 0/4/8

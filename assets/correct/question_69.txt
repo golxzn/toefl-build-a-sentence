@@ -1,0 +1,4 @@
+Q: Why was the train delayed for more than an hour?
+A: The / conductor / announced / that / the train / was delayed / because / there / was / heavy traffic
+T: completely / earlier / quietly
+F: 0 / 9

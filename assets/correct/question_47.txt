@@ -1,0 +1,4 @@
+Q: I heard Anna got a promotion.
+A: Do / you / know / if / she will be / moving to a different department
+T: why
+F: 0

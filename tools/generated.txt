@@ -1,0 +1,138 @@
+```txt
+Q: The committee postponed the vote because several issues were unresolved.
+A[10]: Until / all outstanding concerns / were / fully resolved / , / the committee / postponed / the vote / again / .
+T: completely
+F: 0/4/9
+```
+
+```txt
+Q: The analyst refused to revise the forecast despite new data.
+A[10]: Although / new evidence / suggested / changes / , / the forecast / remained / unchanged / overall / .
+T: strongly
+F: 0/4/9
+```
+
+```txt
+Q: The director kept the report private while the investigation continued.
+A[10]: While / the legal review / was / still ongoing / , / the report / remained / strictly confidential / .
+T: 
+F: 0/4/9
+```
+
+```txt
+Q: The researcher delayed publishing the findings because the data was incomplete.
+A[10]: Because / the data / was / not reliable / , / the researcher / delayed / publishing / the findings / .
+T: carefully
+F: 0/4/9
+```
+
+```txt
+Q: The company issued a recall after defects had been discovered.
+A[10]: The recall / was announced / after / manufacturing defects / had been detected / during / inspection / .
+T: unexpectedly
+F: 7/8/9
+```
+
+```txt
+Q: The professor asked why the student missed the deadline.
+A[9]: Why / did / the student / miss / the deadline / for / the project / ?
+T: really
+F: 8
+```
+
+```txt
+Q: The committee rejected a candidate who failed to meet requirements.
+A[10]: The committee / rejected / a candidate / who / had failed / to meet / minimum requirements / .
+T: actually
+F: 8/9
+```
+
+```txt
+Q: The company discontinued a service that customers had consistently criticized.
+A[11]: The company / discontinued / a service / that / customers / had consistently criticized / for years / .
+T: heavily
+F: 9/10
+```
+
+```txt
+Q: The historian revised the conclusion after new sources had emerged.
+A[10]: The conclusion / changed / because / new primary sources / had emerged / unexpectedly / recently / .
+T: suddenly
+F: 8/9
+```
+
+```txt
+Q: The manager had wanted to review the report before attending the meeting.
+A[12]: She / had wanted / to review / it / before / attending / the meeting / in person / . / .
+F: 10/11
+```
+
+```txt
+Q: The editor delayed publishing the article after discovering serious errors.
+A[12]: Discovering / serious errors / , / the editor / had delayed / publishing / the article / immediately / . / .
+T: quickly
+F: 0/2/10/11
+```
+
+```txt
+Q: The agency withdrew its recommendation after identifying inconsistencies.
+A[11]: Identifying / inconsistencies / in the guidelines / , / the agency / withdrew / its recommendation / . / .
+T: unexpectedly
+F: 0/3/9/10
+```
+
+```txt
+Q: The manager resolved the conflict through reaching a compromise.
+A[11]: He / resolved / it / through / reaching / a mutual compromise / with everyone / . / .
+T: 
+F: 9/10
+```
+
+```txt
+Q: The professor explained that the protocol had been approved by the ethics committee.
+A[13]: I / explained / that / the protocol / had been approved / by / the ethics committee / before / proceeding / . / .
+T: carefully
+F: 11/12
+```
+
+```txt
+Q: The company rejected a proposal whose methodology lacked coherence.
+A[12]: A proposal / whose methodology / lacked internal coherence / was rejected / by the committee / . / .
+T: strongly
+F: 10/11
+```
+
+```txt
+Q: The board wondered whether the director had approved the plan.
+A[11]: Do you know / whether / the director / had approved / the plan / already / ? / .
+T: really
+F: 9/10
+```
+
+```txt
+Q: The manager postponed the decision since key assumptions remained uncertain.
+A[11]: Since / key underlying assumptions / remained uncertain / , / the manager / postponed / the decision / . / .
+T: 
+F: 0/3/9/10
+```
+
+```txt
+Q: The company delayed expansion while market conditions were unstable.
+A[11]: While / market conditions / were still unstable / , / the company / delayed / expansion plans / . / .
+T: heavily
+F: 0/3/9/10
+```
+
+```txt
+Q: The researcher continued the study although funding had been reduced.
+A[11]: Although / funding / had been reduced / significantly / , / the researcher / continued / the study / . / .
+T: unexpectedly
+F: 0/4/10
+```
+
+```txt
+Q: The professor selected a student who had demonstrated strong leadership.
+A[12]: The professor / selected / a student / who / had demonstrated / exceptional leadership / in class / . / .
+T: actually
+F: 10/11
+```

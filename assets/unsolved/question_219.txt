@@ -1,0 +1,4 @@
+Q: The researcher continued the study although funding had been reduced.
+A: Although / funding / had / been reduced / significantly / , / the researcher / continued / the study / .
+T: unexpectedly
+F: 0/5/9

@@ -1,0 +1,4 @@
+Q: Whom the teacher praised?
+A: The teacher / praised / a student / who / studied / very hard / .
+T: actually
+F: 6

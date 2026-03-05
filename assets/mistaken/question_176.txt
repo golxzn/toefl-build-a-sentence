@@ -1,0 +1,3 @@
+Q: The movie continued although the power went out.
+A: Although / the power / went out / , / the movie / continued / anyway
+F: 0/3

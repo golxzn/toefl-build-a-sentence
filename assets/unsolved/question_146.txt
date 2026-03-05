@@ -1,0 +1,3 @@
+Q: The director refused to release the report to the public.
+A: While / the investigation / was / still / ongoing / , / the report / remained / confidential / .
+F: 0/5/8

@@ -1,0 +1,4 @@
+Q: The committee rejected a candidate who failed to meet requirements.
+A: The committee / rejected / a candidate / who / had failed / to meet / minimum requirements / .
+T: actually
+F: 7

@@ -1,0 +1,4 @@
+Q: I'll be taking a cooking class this weekend.
+A: What / recipes / will / you / learn / ?
+T: first
+F: 5

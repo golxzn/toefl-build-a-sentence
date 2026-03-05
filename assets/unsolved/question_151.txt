@@ -1,0 +1,4 @@
+Q: The manager changed the plan after new evidence had appeared.
+A: The strategy / shifted / because / new evidence / had emerged / earlier / .
+T: unexpectedly
+F: 6

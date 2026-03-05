@@ -1,0 +1,139 @@
+```txt
+Q: What was the highlight of your trip?
+A[7]: The / tour guides / were / showed us around / the / old city / was / fantastic
+T: who
+F: 0 / 7
+```
+
+```txt
+Q: I heard Anna got a promotion.
+A[6]: Do / you / know / if / she will be / moving to a different department
+T: why
+F: 0
+```
+
+```txt
+Q: We’re planning a trip to the mountains next weekend.
+A[7]: Can / you / tell me / whether / the cabins / will be / available
+T: soon
+F: 0
+```
+
+```txt
+Q: I'm looking forward to the concert this weekend.
+A[5]: Do / you / know / what time / it does start
+T: exactly
+F: 0
+```
+
+```txt
+Q: The museum exhibition opens next month.
+A[7]: Do / you / know / how / much / tickets / will cost
+T: usually
+F: 0
+```
+
+```txt
+Q: I'm planning to go to the beach tomorrow.
+A[7]: Do / you / know / what / the water / temperature / is like this time of year
+T: today
+F: 0
+```
+
+```txt
+Q: I need to buy groceries today.
+A[6]: Do / you / have / a / shopping / list
+T: already
+F: 0
+```
+
+```txt
+Q: I'll be taking a cooking class this weekend.
+A[5]: What / recipes / will / you / learn
+T: first
+F: 0
+```
+
+```txt
+Q: What did Maria ask you about the book you're reading?
+A[7]: She / wanted / to know / where / she / could / buy a copy
+T: online
+F: 0
+```
+
+```txt
+Q: How did you prepare for the exam?
+A[6]: I used / the study guide / that / was provided / by / the professor
+T: only
+F: 0
+```
+
+```txt
+Q: I need to buy a new laptop.
+A[5]: Which / store / has / the best / deals
+T: nearby
+F: 0
+```
+
+```txt
+Q: I'm thinking about starting a blog.
+A[6]: Have / you / decided / on / a topic / yet
+T: already
+F: 0 / 5
+```
+
+```txt
+Q: I'm going to study at the library this afternoon.
+A[6]: Do / you / need / to / borrow / any books
+T: today
+F: 0
+```
+
+```txt
+Q: I'm thinking about getting a pet.
+A[7]: What / kind / of / animal / are / you / considering
+T: maybe
+F: 0
+```
+
+```txt
+Q: I'm excited to see the new science fiction movie tonight.
+A[4]: Where / is / it / showing
+T: now
+F: 0
+```
+
+```txt
+Q: I have an interview for a new job next week.
+A[6]: Do / you / have / your / resume / ready
+T: already
+F: 0
+```
+
+```txt
+Q: I need to submit my assignment by tomorrow.
+A[5]: Have / you / finished / writing / it
+T: yet
+F: 0
+```
+
+```txt
+Q: I'm planning a trip to Europe this summer.
+A[6]: Have / you / booked / your / flight / yet
+T: already
+F: 0 / 5
+```
+
+```txt
+Q: I just started learning French.
+A[6]: Where / are / you / taking / classes
+T: now
+F: 0
+```
+
+```txt
+Q: Why are you asking about the project deadline?
+A[6]: I’m / checking / to see / if / it / has been extended
+T: again
+F: 0
+```

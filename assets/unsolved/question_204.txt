@@ -1,0 +1,4 @@
+Q: The researcher delayed publishing the findings because the data was incomplete.
+A: Because / the data / was / not reliable / , / the researcher / delayed / publishing / the findings / .
+T: carefully
+F: 0/4/9

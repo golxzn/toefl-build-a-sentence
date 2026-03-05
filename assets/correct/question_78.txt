@@ -1,0 +1,4 @@
+Q: Why did the speaker pause in the middle of the presentation?
+A: The / speaker / paused / because / he / was trying / to remember / the next / important / point / clearly
+T: already
+F: 0 / 10

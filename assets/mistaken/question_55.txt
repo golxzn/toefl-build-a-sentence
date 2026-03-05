@@ -1,0 +1,4 @@
+Q: How did you prepare for the exam?
+A: I used / the study guide / that / was provided / by / the professor
+T: only
+F: 0

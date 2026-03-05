@@ -1,0 +1,3 @@
+Q: The family waited until the guests arrived.
+A: Until / the guests / arrived / , / the family / waited / patiently / .
+F: 0/3/8

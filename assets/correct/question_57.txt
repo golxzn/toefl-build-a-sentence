@@ -1,0 +1,4 @@
+Q: I'm thinking about starting a blog.
+A: Have / you / decided / on / a topic / yet
+T: already
+F: 0 / 5

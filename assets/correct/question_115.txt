@@ -1,0 +1,4 @@
+Q: Why did the train arrive late this morning?
+A: The / train / arrived late / because / there / was / heavy traffic / on / the tracks
+T: suddenly / earlier / completely
+F: 0 / 9

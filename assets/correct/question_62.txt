@@ -1,0 +1,4 @@
+Q: I need to submit my assignment by tomorrow.
+A: Have / you / finished / writing / it
+T: yet
+F: 0

@@ -1,0 +1,4 @@
+Q: I'm excited to see the new science fiction movie tonight.
+A: Where / is / it / showing
+T: now
+F: 0

@@ -1,0 +1,4 @@
+Q: What did Daniel ask you about the training program?
+A: Daniel / wanted / to know / whether / the training program / would begin / next month / or / later
+T: recently
+F: 0

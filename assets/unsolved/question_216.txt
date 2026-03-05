@@ -1,0 +1,4 @@
+Q: The board wondered whether the director had approved the plan.
+A: Do / you / know / whether / the director / had / approved / the plan / already / ?
+T: really
+F: 0/8/9

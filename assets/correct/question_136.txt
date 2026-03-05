@@ -1,0 +1,4 @@
+Q: I heard the professor extended the deadline for the assignment.
+A: Why / did / the professor / extend / the deadline / for / the assignment / ?
+T: really
+F: 7

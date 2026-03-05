@@ -1,0 +1,4 @@
+Q: The historian revised the conclusion after new sources had emerged.
+A: The conclusion / changed / because / new primary sources / had emerged / unexpectedly / recently / .
+T: suddenly
+F: 0/7

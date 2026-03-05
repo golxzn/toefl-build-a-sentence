@@ -1,0 +1,4 @@
+Q: The company rejected a proposal whose methodology lacked coherence.
+A: A / proposal / whose / methodology / lacked / internal / coherence / was rejected / by the committee
+T: strongly
+F: 8

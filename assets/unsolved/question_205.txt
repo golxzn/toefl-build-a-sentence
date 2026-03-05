@@ -1,0 +1,4 @@
+Q: The company issued a recall after defects had been discovered.
+A: The recall / was announced / after / manufacturing defects / had been detected / during / inspection / .
+T: unexpectedly
+F: 7

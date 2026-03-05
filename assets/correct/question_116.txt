@@ -1,0 +1,4 @@
+Q: Do you know if Anna has finished her project?
+A: I / was wondering / if / you / knew / whether / Anna / finished her project / yet / .
+T: exactly
+F: 0 / 8 / 9

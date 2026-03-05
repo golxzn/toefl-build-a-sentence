@@ -1,0 +1,3 @@
+Q: The manager had wanted to review the report before attending the meeting.
+A: She / had wanted / to review / it / before / attending / the meeting / in person / .
+F: 7/8

@@ -1,0 +1,4 @@
+Q: Whom the committee chose this time?
+A: The committee / chose / an applicant / who / met / all / requirements / for / the position / .
+T: actually
+F: 9

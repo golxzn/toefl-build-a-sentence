@@ -1,0 +1,4 @@
+Q: The professor explained that the protocol had been approved by the ethics committee.
+A: I / explained / that / the protocol / had been approved / by / the ethics committee / before / proceeding / .
+T: carefully
+F: 9

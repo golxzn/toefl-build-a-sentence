@@ -1,0 +1,4 @@
+Q: The company delayed expansion while market conditions were unstable.
+A: While / market conditions / were still unstable / , / the company / delayed / expansion plans / .
+T: heavily
+F: 3/6/7

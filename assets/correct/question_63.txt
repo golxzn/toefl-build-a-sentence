@@ -1,0 +1,4 @@
+Q: I'm planning a trip to Europe this summer.
+A: Have / you / booked / your / flight / yet
+T: already
+F: 0 / 5

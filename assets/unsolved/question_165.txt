@@ -1,0 +1,4 @@
+Q: Why was the trip delayed?
+A: Since / the bus / arrived / late / , / the trip / was / delayed / .
+T: completely
+F: 0/4/8

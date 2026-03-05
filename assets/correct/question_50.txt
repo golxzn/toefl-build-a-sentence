@@ -1,0 +1,4 @@
+Q: The museum exhibition opens next month.
+A: Do / you / know / how / much / tickets / will cost
+T: usually
+F: 0

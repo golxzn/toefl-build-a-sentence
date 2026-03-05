@@ -1,0 +1,89 @@
+```txt
+Q: Why did James miss the bus this morning?
+A[9]: James / missed / the bus / this morning / because / he / woke up / too late / today
+F: 0 / 8
+```
+
+```txt
+Q: Do you know if the library is open on Sundays?
+A[9]: I / was wondering / if / you / knew / whether / the library / is open / on Sundays
+F: 0 / 8
+```
+
+```txt
+Q: What did Sophie ask about the homework?
+A[9]: Sophie / wanted / to know / if / the homework / was / due / tomorrow / morning
+F: 0 / 8
+```
+
+```txt
+Q: Why was the flight delayed at the airport?
+A[10]: The / flight / was delayed / because / there / was / bad weather / at / the airport
+F: 0 / 9
+```
+
+```txt
+Q: Do you know where Daniel left his phone?
+A[9]: I / was curious / where / Daniel / left / his phone / after / lunch
+F: 0 / 8
+```
+
+```txt
+Q: What did the manager say about the meeting?
+A[9]: The / manager / said / that / the meeting / would start / at / nine / today
+F: 0 / 8
+```
+
+```txt
+Q: Why did the students stay after class?
+A[10]: The / students / stayed after class / because / they / needed / extra help / with / math
+F: 0 / 9
+```
+
+```txt
+Q: Do you know if Maria finished reading the book?
+A[9]: I / was wondering / if / you / knew / whether / Maria / finished reading / the book
+F: 0 / 8
+```
+
+```txt
+Q: What did Ethan ask about the new teacher?
+A[9]: Ethan / wanted / to know / when / the new teacher / would arrive / at / school
+F: 0 / 8
+```
+
+```txt
+Q: Why did the restaurant close early last night?
+A[10]: The / restaurant / closed early / because / there / were / not / many customers / last night
+F: 0 / 9
+```
+
+```txt
+Q: Do you know where the children are playing now?
+A[9]: I / was curious / where / the children / are playing / right / now / outside
+F: 0 / 8
+```
+
+```txt
+Q: What did Lily ask about the trip tomorrow?
+A[10]: Lily / wanted / to know / if / the trip / would happen / tomorrow / or / later
+F: 0 / 9
+```
+
+```txt
+Q: Why was the test moved to next week?
+A[10]: The / test / was moved / because / the teacher / needed / more time / to prepare / it
+F: 0 / 9
+```
+
+```txt
+Q: Do you know if the concert starts at eight?
+A[9]: I / was wondering / if / you / knew / whether / the concert / starts at eight / tonight
+F: 0 / 8
+```
+
+```txt
+Q: What did Noah say about his new apartment?
+A[10]: Noah / said / that / his new apartment / was / very / small / but / comfortable
+F: 0 / 9
+```

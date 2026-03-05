@@ -1,0 +1,4 @@
+Q: Why are you asking about the project deadline?
+A: I’m / checking / to see / if / it / has been extended
+T: again
+F: 0

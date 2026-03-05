@@ -1,0 +1,4 @@
+Q: The editor delayed publishing the article after discovering serious errors.
+A: Discovering / serious errors / , / the editor / had delayed / publishing / the article / immediately / .
+T: quickly
+F: 2/7/8

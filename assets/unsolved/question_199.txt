@@ -1,0 +1,4 @@
+Q: What was the boy looking for in his bag?
+A: Looking / in his bag / , / the boy / found / his pen / quickly / .
+T: suddenly
+F: 0/2/7

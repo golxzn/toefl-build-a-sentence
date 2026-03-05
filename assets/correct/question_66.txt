@@ -1,0 +1,4 @@
+Q: Why did Olivia decide to leave the meeting early?
+A: Olivia / explained / that / she / needed / to leave / because / she / felt unwell
+T: suddenly / although / quickly
+F: 0 / 8

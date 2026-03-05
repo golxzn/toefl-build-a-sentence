@@ -1,0 +1,4 @@
+Q: I need to buy groceries today.
+A: Do / you / have / a / shopping / list
+T: already
+F: 0

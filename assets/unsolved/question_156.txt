@@ -1,0 +1,4 @@
+Q: What's about the game?
+A: Since / the weather / was / terrible / , / the game / was / canceled / .
+T: completely
+F: 0/4/8

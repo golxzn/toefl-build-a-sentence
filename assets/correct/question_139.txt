@@ -1,0 +1,4 @@
+Q: The researcher could not publish the results immediately.
+A: Because / the data / was / incomplete / , / the publication / was delayed / immediately / .
+T: carefully
+F: 0/4/8

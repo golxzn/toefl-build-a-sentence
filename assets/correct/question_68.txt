@@ -1,0 +1,4 @@
+Q: What did Marcus ask about the new apartment downtown?
+A: Marcus / wanted / to know / if / the apartment / was / still / available / downtown
+T: why / recently / instead
+F: 0 / 8

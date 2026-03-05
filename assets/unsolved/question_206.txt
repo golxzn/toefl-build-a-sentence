@@ -1,0 +1,4 @@
+Q: The professor asked why the student missed the deadline.
+A: Why / did / the student / miss / the deadline / for / the project / ?
+T: really
+F: 7

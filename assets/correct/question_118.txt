@@ -1,0 +1,4 @@
+Q: Why did the professor cancel the lecture today?
+A: The / professor / canceled / the lecture / because / he / had / an emergency / today
+T: suddenly / already / quickly
+F: 0 / 8

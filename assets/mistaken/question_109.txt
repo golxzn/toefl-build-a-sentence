@@ -1,0 +1,4 @@
+Q: Why did Emily leave the classroom early?
+A: Emily / left / the classroom / early / because / she / felt / sick / today / .
+T: suddenly
+F: 0 / 8 / 9

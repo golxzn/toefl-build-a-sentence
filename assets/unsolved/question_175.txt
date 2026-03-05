@@ -1,0 +1,4 @@
+Q: The picnic was canceled since it began to rain.
+A: Since / it / began / to rain / , / the picnic / was / canceled / .
+T: completely
+F: 0/4/8

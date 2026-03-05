@@ -1,0 +1,4 @@
+Q: The analyst kept the forecast unchanged despite new information.
+A: Since / key assumptions / remained / uncertain / , / the forecast / stayed / the same / .
+T: slightly
+F: 0/4/8

@@ -1,0 +1,3 @@
+Q: The students left early because the class ended.
+A: Because / the class / ended / early / , / the students / left / quickly / .
+F: 0/4/8

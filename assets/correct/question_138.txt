@@ -1,0 +1,4 @@
+Q: The company kept the policy unchanged despite complaints.
+A: Although / customers / raised / concerns / , / the policy / remained / unchanged / .
+T: strongly
+F: 0/4/8

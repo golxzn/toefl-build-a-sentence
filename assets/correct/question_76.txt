@@ -1,0 +1,4 @@
+Q: Do you know if the museum tickets must be purchased in advance?
+A: I / was wondering / if / you / knew / whether / the tickets / must be / purchased / in advance / online
+T: exactly
+F: 0 / 10

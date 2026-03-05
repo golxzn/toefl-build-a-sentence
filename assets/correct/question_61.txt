@@ -1,0 +1,4 @@
+Q: I have an interview for a new job next week.
+A: Do / you / have / your / resume / ready
+T: already
+F: 0

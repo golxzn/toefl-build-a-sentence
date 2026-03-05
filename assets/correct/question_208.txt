@@ -1,0 +1,4 @@
+Q: The company discontinued a service that customers had consistently criticized.
+A: The company / discontinued / a service / that / customers / had consistently criticized / for years
+T: heavily
+F: 6

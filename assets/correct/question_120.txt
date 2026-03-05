@@ -1,0 +1,4 @@
+Q: What did Olivia ask about the trip next week?
+A: Olivia / wanted / to know / if / the trip / would happen / next week / or / later
+T: maybe / already / instead
+F: 0 / 9

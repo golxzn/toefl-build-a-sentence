@@ -1,0 +1,4 @@
+Q: The committee postponed the vote because several issues were unresolved.
+A: Until / all outstanding concerns / were / fully resolved / , / the committee / postponed / the vote / again / .
+T: completely
+F: 0/4/9

@@ -1,0 +1,4 @@
+Q: Why was the restaurant so crowded last night?
+A: The / waiter / said / that / the restaurant / was crowded / because / a festival / was happening / nearby
+T: earlier / maybe
+F: 0 / 9

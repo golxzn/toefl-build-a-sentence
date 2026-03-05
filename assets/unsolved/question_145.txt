@@ -1,0 +1,4 @@
+Q: I noticed the university changed the graduation requirements recently.
+A: What / changes / did / the university / introduce / for / graduation / ?
+T: recently
+F: 7

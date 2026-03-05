@@ -1,0 +1,4 @@
+Q: How did the committee work back then?
+A: The committee / rejected / an applicant / who / lacked / relevant experience / entirely / .
+T: actually
+F: 7

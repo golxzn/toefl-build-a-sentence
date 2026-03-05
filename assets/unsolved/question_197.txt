@@ -1,0 +1,4 @@
+Q: I like a new teacher of philosophy.
+A: The teacher / thanked / a student / who / helped / others / .
+T: actually
+F: 6

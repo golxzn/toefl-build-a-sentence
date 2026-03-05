@@ -1,0 +1,4 @@
+Q: I'm going to study at the library this afternoon.
+A: Do / you / need / to / borrow / any books
+T: today
+F: 0

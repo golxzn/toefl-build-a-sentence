@@ -1,0 +1,4 @@
+Q: I want to watch a movie tonight.
+A: What / movie / do / you / want to / watch / tonight / ?
+T: really
+F: 7

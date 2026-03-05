@@ -1,0 +1,4 @@
+Q: I plan to buy a new book tomorrow.
+A: What / book / are / you / going to / buy / tomorrow / ?
+T: really
+F: 7

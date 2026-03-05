@@ -1,0 +1,3 @@
+Q: The manager postponed the decision since key assumptions remained uncertain.
+A: Since / key / underlying / assumptions / remained uncertain / , / the manager / postponed / the decision / .
+F: 0/5/9

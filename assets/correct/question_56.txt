@@ -1,0 +1,4 @@
+Q: I need to buy a new laptop.
+A: Which / store / has / the best / deals
+T: nearby
+F: 0

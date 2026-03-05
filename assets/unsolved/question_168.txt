@@ -1,0 +1,4 @@
+Q: Who the company decided to go with?
+A: The company / hired / a worker / who / had / experience / .
+T: actually
+F: 6

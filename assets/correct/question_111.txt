@@ -1,0 +1,4 @@
+Q: What did Michael ask about the homework assignment?
+A: Michael / wanted / to know / if / the homework / was / due / tomorrow / morning
+T: why / instead / already
+F: 0 / 8

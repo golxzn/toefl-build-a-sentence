@@ -1,0 +1,3 @@
+Q: What did the manager say about the meeting?
+A: The / manager / said / that / the meeting / would start / at / nine / today / .
+F: 8 / 9
