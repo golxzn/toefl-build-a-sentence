@@ -1,3 +1,3 @@
-# TEOFL | Build a Sentance Pracitce
+# TOEFL | Build a Sentence Practice
 
 
