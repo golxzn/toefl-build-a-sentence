@@ -1,4 +1,4 @@
 Q: What was the highlight of your trip?
-A: The / tour guides / were / showed us around / the / old city / was / fantastic
-T: who
+A: The / tour guides / who / showed us around / the / old city / were / fantastic
+T: was
 F: 0 / 7
