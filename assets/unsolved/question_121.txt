@@ -1,4 +1,3 @@
 Q: Why was the event postponed until next weekend?
 A: The / event / was postponed / because / the weather / was / not / good / this weekend
-T: suddenly / earlier / completely
-F: 0 / 9
+T: completely

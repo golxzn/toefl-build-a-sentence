@@ -74,8 +74,8 @@ def main() -> None:
     print("SIMILAR:", len(similarities))
 
     # for path, _ in broken:
-    #     relocate(path, 'broken')
-
+        # relocate(path, 'broken')
+        #
     # for path, _ in similar_records:
     #     relocate(path, 'similar')
 

@@ -1,4 +1,4 @@
 Q: Why was the meeting moved to a later time?
 A: The / meeting / was moved / because / everyone / could / attend / at / a later time
 T: suddenly / quietly
-F: 0 / 9
+F: 0 / 8

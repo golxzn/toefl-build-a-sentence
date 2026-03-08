@@ -1,3 +1,2 @@
 Q: What did Lily ask about the trip tomorrow?
 A: Lily / wanted / to know / if / the trip / would happen / tomorrow / or / later
-F: 0 / 9

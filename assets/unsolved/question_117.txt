@@ -1,4 +1,3 @@
 Q: What did Lucas ask about the new restaurant?
 A: Lucas / wanted / to know / when / the new restaurant / was going / to open / downtown
-T: why / instead / recently
-F: 0 / 8
+T: why / recently

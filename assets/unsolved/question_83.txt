@@ -1,4 +1,2 @@
 Q: Why did Jason decide to take a different route home?
 A: Jason / decided / to take / a different route / because / the main road / was closed / due to construction / today
-T: quickly / already / nearby
-F: 0 / 10

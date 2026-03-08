@@ -1,4 +1,4 @@
 Q: Do you know where Sarah bought her new jacket?
 A: I / was curious / where / Sarah / bought / her new jacket / last / weekend
-T: somehow / already / nearby
-F: 0 / 8
+T: somehow / nearby
+F: 0 / 7
