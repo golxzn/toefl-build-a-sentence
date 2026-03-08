@@ -51,14 +51,23 @@ class Question:
 
         answer_parts: List[str] = make_parts(a_raw)
         trick_parts: List[str] = make_parts(t_raw)
-        frozen_parts: List[int] = [safe_to_int(p.strip()) for p in f_raw.split("/")]
-        if frozen_parts is not None:
-            frozen_parts.sort()
-            while len(frozen_parts) > 0 and frozen_parts[0] < 0:
-                frozen_parts.pop(0)
-        else:
-            frozen_parts = []
+        frozen_parts: Set[int] = Question.make_frozen_parts(f_raw)
 
-        return Question(id, q_raw, answer_parts, trick_parts, set(frozen_parts))
+        return Question(id, q_raw, answer_parts, trick_parts, frozen_parts)
+
+    @staticmethod
+    def make_frozen_parts(raw: str) -> Set[int]:
+        if len(raw) == 0:
+            return set()
+
+        frozen_parts: List[int] = [safe_to_int(p.strip()) for p in raw.split("/")]
+        if frozen_parts is None:
+            return set()
+
+        frozen_parts.sort()
+        while len(frozen_parts) > 0 and frozen_parts[0] < 0:
+            frozen_parts.pop(0)
+
+        return set(frozen_parts)
 
 
