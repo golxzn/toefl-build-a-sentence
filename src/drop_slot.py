@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 from typing import Optional
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, QMimeData
 from PySide6.QtWidgets import QLabel
+from PySide6.QtGui import QDrag
 
 class DropSlot(QLabel):
     def __init__(self, frozen: bool = False, word: str | None = None) -> None:
@@ -43,18 +44,31 @@ class DropSlot(QLabel):
         if tile is None:
             return
 
+        if type(tile) is DropSlot:
+            tile.setText('')
+            tile = tile.tile
+        elif tile.current_slot is not None:
+            tile.current_slot._release_tile()
+
         if self.tile is not None:
             self._release_tile()
-
-        if tile.current_slot is not None:
-            tile.current_slot._release_tile()
 
         self.tile = tile
         tile.current_slot = self
         tile.set_placed(True)
 
-        self.setText(tile.text_value)
+        self.setText(tile.text())
         event.acceptProposedAction()
+
+    def mousePressEvent(self, event) -> None:
+        if self.frozen or event.button() != Qt.LeftButton: return
+
+        mime = QMimeData()
+        mime.setText(self.text())
+
+        drag = QDrag(self)
+        drag.setMimeData(mime)
+        drag.exec(Qt.MoveAction)
 
     # ------------------ helpers ------------------
 

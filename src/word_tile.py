@@ -9,7 +9,6 @@ from src.settings import Settings
 class WordTile(QLabel):
     def __init__(self, text: str, tray_index: int) -> None:
         super().__init__(text)
-        self.text_value: str = text
         self.tray_index: int = tray_index
         self.current_slot = None  # type: DropSlot | None
 
@@ -57,7 +56,7 @@ class WordTile(QLabel):
 
         drag = QDrag(self)
         mime = QMimeData()
-        mime.setText(self.text_value)
+        mime.setText(self.text())
         drag.setMimeData(mime)
 
         drag.exec(Qt.MoveAction)

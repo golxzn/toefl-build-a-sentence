@@ -80,12 +80,11 @@ class TestController:
         wrong_sentences: list[str] = []
         total: int = len(self.questions)
         for idx in range(total):
-            self.results[idx] = self.questions[idx].is_correct(self.answers[idx])
-            if not self.results[idx]:
-                wrong_sentences.append(' '.join(self.answers[idx]))
-
-        # for i, question in enumerate(self.questions):
-        #     self.results[i] = question.is_correct(self.answers[i])
+            answer: List[str] | None = self.answers[idx]
+            is_correct: bool = self.questions[idx].is_correct(answer)
+            self.results[idx] = is_correct
+            if not is_correct and answer is not None:
+                wrong_sentences.append(' '.join(answer))
 
         score: int = sum(self.results)
 
