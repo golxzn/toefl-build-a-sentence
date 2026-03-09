@@ -45,8 +45,9 @@ class DropSlot(QLabel):
             return
 
         if type(tile) is DropSlot:
-            tile.setText('')
+            slot = tile
             tile = tile.tile
+            slot._release_tile()
         elif tile.current_slot is not None:
             tile.current_slot._release_tile()
 
