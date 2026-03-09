@@ -30,12 +30,10 @@ class TestController:
 
         self.test_window: TestWindow = TestWindow(
             total=len(self.questions),
-            on_next=self._show_next
+            on_next=self._show_next,
+            on_back=self._show_prev
         )
-        self.test_window.set_question(
-            index=self.index + 1,
-            question=self.questions[self.index]
-        )
+        self._set_current_question()
 
         self.test_window.show()
 
@@ -53,6 +51,13 @@ class TestController:
         random.shuffle(questions)
         return questions[:Settings.questionsPerTest()]
 
+    def _set_current_question(self) -> None:
+        self.test_window.set_question(
+            index=self.index + 1,
+            question=self.questions[self.index],
+            answer=self.answers[self.index]
+        )
+
     def _tick(self) -> None:
         self.time_left -= 1
         self.test_window.update_timer(self.time_left)
@@ -61,18 +66,18 @@ class TestController:
             self._finish()
 
     def _show_next(self) -> None:
-        if self.index >= len(self.questions):
-            self._finish()
-            return
-
-        self.answers[self.index] = self.test_window.current_answer()
+        self.answers[self.index] = self.test_window.parse_answer()
         self.index += 1
 
         if self.index < len(self.questions):
-            self.test_window.set_question(
-                index=self.index + 1,
-                question=self.questions[self.index]
-            )
+            self._set_current_question()
+        else:
+            self._finish()
+
+    def _show_prev(self) -> None:
+        if self.index > 0:
+            self.index -= 1
+            self._set_current_question()
 
     def _finish(self) -> None:
         self.timer.stop()
@@ -114,8 +119,11 @@ class TestController:
         self.scoring_window.close()
         self.scoring_window = None
 
-        if save:
-            for path, correct in zip(self.questions_paths, self.results):
-                target: Path = Settings.assetsDir() / ("correct" if correct else "mistaken")
-                shutil.move(str(path), target / path.name)
+        if not save:
+            self.go_back()
+            return
+
+        for path, correct in zip(self.questions_paths, self.results):
+            target: Path = Settings.assetsDir() / ("correct" if correct else "mistaken")
+            shutil.move(str(path), target / path.name)
         self.go_back()

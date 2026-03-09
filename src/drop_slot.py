@@ -38,11 +38,24 @@ class DropSlot(QLabel):
             event.acceptProposedAction()
 
     def dropEvent(self, event) -> None:
-        if self.frozen: return
+        if not self.frozen and self.set_tile(event.source()):
+            event.acceptProposedAction()
 
-        tile = event.source()
+    def mousePressEvent(self, event) -> None:
+        if self.frozen or event.button() != Qt.LeftButton: return
+
+        mime = QMimeData()
+        mime.setText(self.text())
+
+        drag = QDrag(self)
+        drag.setMimeData(mime)
+        drag.exec(Qt.MoveAction)
+
+    # ------------------ helpers ------------------
+
+    def set_tile(self, tile) -> bool:
         if tile is None:
-            return
+            return False
 
         if type(tile) is DropSlot:
             slot = tile
@@ -59,19 +72,8 @@ class DropSlot(QLabel):
         tile.set_placed(True)
 
         self.setText(tile.text())
-        event.acceptProposedAction()
+        return True
 
-    def mousePressEvent(self, event) -> None:
-        if self.frozen or event.button() != Qt.LeftButton: return
-
-        mime = QMimeData()
-        mime.setText(self.text())
-
-        drag = QDrag(self)
-        drag.setMimeData(mime)
-        drag.exec(Qt.MoveAction)
-
-    # ------------------ helpers ------------------
 
     def _release_tile(self) -> None:
         if self.tile:

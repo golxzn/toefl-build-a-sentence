@@ -13,9 +13,10 @@ from src.drop_slot import DropSlot
 
 
 class TestWindow(QWidget):
-    def __init__(self, total: int, on_next: Callable[[], None]) -> None:
+    def __init__(self, total: int, on_next: Callable[[], None], on_back: Callable[[], None]) -> None:
         super().__init__()
         self.on_next: Callable[[], None] = on_next
+        self.on_back: Callable[[], None] = on_back
         self.slots: List[DropSlot] = []
         self.total: int = total
 
@@ -23,7 +24,7 @@ class TestWindow(QWidget):
         self.setMaximumSize(Settings.maximumSize())
         self._build_ui()
 
-    def set_question(self, index: int, question: Question) -> None:
+    def set_question(self, index: int, question: Question, answer: List[str]) -> None:
         self.test_id.setText(f'#{question.id}')
         self.counter.setText(f"{index} / {self.total}")
         self.next_btn.setText("Finish" if index == self.total else "Next")
@@ -36,39 +37,51 @@ class TestWindow(QWidget):
         self.question_label.setText(f"<b>Q:</b> {question.text}")
         self.question_label.setStyleSheet(Settings.fontSizeStyle());
 
-        self.slots_layout: QHBoxLayout = QHBoxLayout()
-
+        # Building tiles
         answer_parts: list[str] = question.answer_parts.copy()
-        for i in range(len(answer_parts)):
-            is_frozen: bool = i in question.frozen
-            slot: DropSlot = DropSlot(
-                frozen=is_frozen,
-                word=answer_parts[i] if is_frozen else None
-            )
-
-            self.slots.append(slot)
-            self.slots_layout.addWidget(slot)
-
-        self.layout.insertLayout(2, self.slots_layout, 1)
-
         for id in reversed(sorted(list(question.frozen))):
             answer_parts.pop(id)
 
         words: list[str] = answer_parts + question.trick
         random.shuffle(words)
 
+        answered_tiles: List[WordTile] = [None] * len(question.answer_parts)
         self.tray_layout: QHBoxLayout = QHBoxLayout()
         for i, word in enumerate(words):
             tile: WordTile = WordTile(word, i)
             tile.adjustSize()
             self.tray_layout.addWidget(tile)
 
+            if answer is None: continue
+
+            for j, part in enumerate(answer):
+                if part != word: continue
+                answered_tiles[j] = tile
+                break
+
+
+        # Building slots
+        self.slots_layout: QHBoxLayout = QHBoxLayout()
+        for i, part in enumerate(question.answer_parts):
+            is_frozen: bool = i in question.frozen
+            slot: DropSlot = DropSlot(
+                frozen=is_frozen,
+                word=part if is_frozen else None
+            )
+            if not is_frozen and answered_tiles[i] is not None:
+                slot.set_tile(answered_tiles[i])
+
+            self.slots.append(slot)
+            self.slots_layout.addWidget(slot)
+
+        # Packing
+        self.layout.insertLayout(2, self.slots_layout, 1)
         self.layout.insertLayout(3, self.tray_layout, 1)
 
     def update_timer(self, seconds: int) -> None:
         self.timer_label.setText(time.strftime('%M:%S', time.gmtime(seconds)))
 
-    def current_answer(self) -> list[str]:
+    def parse_answer(self) -> list[str]:
         return [slot.text() or "" for slot in self.slots]
 
     def _build_ui(self) -> None:
@@ -91,11 +104,19 @@ class TestWindow(QWidget):
         self.tray_layout: QHBoxLayout = QHBoxLayout()
         self.layout.addLayout(self.tray_layout, 1)
 
+        self.back_btn: QPushButton = QPushButton("Back")
+        self.back_btn.setStyleSheet(Settings.fontSizeStyle())
+        self.back_btn.clicked.connect(self.on_back)
+
         self.test_id: QLabel = QLabel()
+
         self.next_btn: QPushButton = QPushButton("Next")
         self.next_btn.setStyleSheet(Settings.fontSizeStyle())
         self.next_btn.clicked.connect(self.on_next)
+
         footer: QHBoxLayout = QHBoxLayout()
+        footer.addWidget(self.back_btn)
+        footer.addStretch()
         footer.addWidget(self.test_id)
         footer.addStretch()
         footer.addWidget(self.next_btn)
