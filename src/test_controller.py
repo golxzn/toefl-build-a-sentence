@@ -28,6 +28,8 @@ class TestController:
         self.answers: List[List[str]] = [None] * len(self.questions)
         self.results: List[bool] = [False] * len(self.questions)
 
+        self.time_left = Settings.totalTimeFor(len(self.questions))
+
         self.test_window: TestWindow = TestWindow(
             total=len(self.questions),
             on_next=self._show_next,
@@ -39,7 +41,7 @@ class TestController:
 
         self.timer: QTimer = QTimer(self.parent)
         self.timer.timeout.connect(self._tick)
-        self.timer.start(Settings.oneSecondTime())
+        self.timer.start(Settings.oneSecondDurationMs())
 
     def _load_questions(self) -> List[Path]:
         questions: list[str] = []

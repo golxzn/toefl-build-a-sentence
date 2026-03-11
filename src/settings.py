@@ -28,6 +28,10 @@ class Settings:
         return TOTAL_TIME
 
     @staticmethod
+    def totalTimeFor(questions_count: int) -> int:
+        return questions_count * Settings.timePerQuestion()
+
+    @staticmethod
     def maximumSize() -> QSize:
         return QSize(1920, 1080)
 
@@ -36,5 +40,5 @@ class Settings:
         return 'font-size: 22px;'
 
     @staticmethod
-    def oneSecondTime() -> int:
-        return 900
+    def oneSecondDurationMs() -> int:
+        return 800
